@@ -28,9 +28,9 @@ function mintNFT (name,role,country) {
 function listNFTs () {
     for(i=0;i<NFTs.length;i++)
     {
-        console.log("Player name:"+NFTs[i].name);
-        console.log("Playing role:" +NFTs[i].role);
-        console.log("Country:" +NFTs[i].country);
+        console.log("Player name: "+NFTs[i].name);
+        console.log("Playing role: " +NFTs[i].role);
+        console.log("Country: " +NFTs[i].country);
         console.log(" ");
     }
 }
@@ -44,8 +44,7 @@ function getTotalSupply() {
 
 mintNFT("Virat Kohli","Batsmen","India");
 mintNFT("Rohit Sharma","Batsmen","India");
-mintNFT("Ben Stokes","Allrounder","Endland");
+mintNFT("Ben Stokes","Allrounder","England");
 mintNFT("Jasprit Bumrah","Bowler","India");
 listNFTs();
 getTotalSupply();
-
